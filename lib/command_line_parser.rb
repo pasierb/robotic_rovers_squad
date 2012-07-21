@@ -7,7 +7,8 @@ module CommandLineParser
 		options.each do |path| 
 			parsed = parse_file( path ) 
 			parsed.rovers.each do |rover|
-			 output_stream.puts rover.execute_command_list( parsed.commands[rover.id] )
+				rover.field = parsed.field
+				output_stream.puts rover.execute_command_list( parsed.commands[rover.id] )
 			end
 		end
 	end
