@@ -63,7 +63,7 @@ Solution
 Usage
 -----
 
-	bin/robotic_rovers_squad.rb test/fixtures/sample_input.txt
+	$ bin/robotic_rovers_squad.rb test/fixtures/sample_input.txt
 
 Tests
 -----
