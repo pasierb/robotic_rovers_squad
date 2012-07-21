@@ -46,13 +46,28 @@ INPUT AND OUTPUT
 
 ### Test Input:
 
-	5 5 
-	1 2 N 
-	LMLMLMLMM 
-	3 3 E 
-	MMRMMRMRRM 
+	5 5
+	1 2 N
+	LMLMLMLMM
+	3 3 E
+	MMRMMRMRRM
 
 ### Expected Output:
 
-	1 3 N 
-	5 1 E 
+	1 3 N
+	5 1 E
+
+Solution
+========
+
+Usage
+-----
+
+	bin/robotic_rovers_squad.rb test/fixtures/sample_input.txt
+
+Tests
+-----
+
+To run the tests:
+
+	$ rake
