@@ -19,7 +19,7 @@ forward one grid point, and maintain the same heading.
 
 Assume that the square directly North from (x, y) is (x, y+1).
 
-INPUT:
+INPUT
 ------
 
 The first line of input is the upper-right coordinates of the plateau, the lower-
